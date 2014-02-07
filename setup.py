@@ -20,7 +20,7 @@ setuptools.setup(
     name=__project__,
     version='0.0.0',
 
-    description="XY manages document and spreadsheet formats as text.",
+    description="Manage document and spreadsheet formats as text.",
     url='http://github.com/jacebrowning/xy',
     author='Jace Browning',
     author_email='jacebrowning@gmail.com',
