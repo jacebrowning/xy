@@ -8,16 +8,37 @@ XY
 XY manages document and spreadsheet formats as text.
 
 
+What?
+-----
+
+XY is a convention and tool for storing document and spreadsheet data in text files while maintaining support for editing in traditional `.docx` and `.xlsx` programs.
+
+
+Why?
+----
+
+Text files are great because they be stored in verson control and diffed/branched/merged/etc. But sometimes there is a need or precident for supporting traditional document and spreadsheet formats. Unfortunately, these formats **do not** play nice with version control. That's where XY comes in.
+
+
+How?
+----
+
+After installation convert an exsting document or spreadsheet to text:
+
+    $ xy --convert MyDocument.docx
+
+Or create a new document or spreadsheet:
+
+    $ xy --new MySpreadsheet.xlsxy
+
+The file will be oped in your default `.docx` or `.xlsx` editor:
+
+    $ xy MyFile.docxy
+
+
 
 Getting Started
 ===============
-
-Requirements
-------------
-
-* Python 3.3: http://www.python.org/download/releases/3.3.3/#download
-
-
 Installation
 ------------
 
@@ -34,11 +55,9 @@ Or directly from the source code:
 Basic Usage
 ===========
 
-After installation, abstract base classes can be imported from the package:
+After installation, use the command-line interface:
 
-    python
-    >>> import xy
-    xy.__version__
+    $ xy --help
 
 
 
