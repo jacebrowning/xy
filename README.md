@@ -23,15 +23,17 @@ Text files are great because they be stored in verson control and diffed/branche
 How?
 ----
 
-After installation convert an exsting document or spreadsheet to text:
+Create a new document or spreadsheet:
+
+    $ xy MyDocument.docxy
+    $ xy MySpreadsheet.xlsxy
+    
+Or convert an exsting file to the XY format:
 
     $ xy --convert MyDocument.docx
+    $ xy --convert MySpreadsheet.docx
 
-Or create a new document or spreadsheet:
-
-    $ xy --new MySpreadsheet.xlsxy
-
-The file will be oped in your default `.docx` or `.xlsx` editor:
+When editing, the file will be opened using the associated `.docx` or `.xlsx` editor:
 
     $ xy MyFile.docxy
 
