@@ -7,6 +7,7 @@ XY
 
 XY manages document and spreadsheet formats as text.
 
+[![x all the y](http://static.starcitygames.com/www/images/article/02082012levin.png)](http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html)
 
 What?
 -----
@@ -27,7 +28,7 @@ Create a new document or spreadsheet:
 
     $ xy MyDocument.docxy
     $ xy MySpreadsheet.xlsxy
-    
+
 Or convert an exsting file to the XY format:
 
     $ xy --convert MyDocument.docx
