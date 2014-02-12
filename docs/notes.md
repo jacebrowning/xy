@@ -4,38 +4,22 @@
 
 # Name | CLI
 
-TextToBlob | ttb
-
-Chunky | chunk
-
-Gob | gob
-
-Globby | globby
-
-? | dab
-
-Dollop | lop
-
-Blobby | blob, lob
-
-? | xit ("exit")
-
-Exit | xx
-
-Xxit | xx
-
-A SuperDuper Fileconverter | asdf
-
-WordToFile | wtf
-
-? | xyml, xy
-
-X-to-Y | xy, xtoy
-
-X2Yaml, XtoYaml, X2YAML | xy
-
-ThereAndBack | hobbits, bilbo, baggins
-
+ - TextToBlob | ttb  
+ - Chunky | chunk  
+ - Gob | gob  
+ - Globby | globby  
+ - ? | dab  
+ - Dollop | lop  
+ - Blobby | blob, lob  
+ - ? | xit ("exit")  
+ - Exit | xx  
+ - Xxit | xx  
+ - A SuperDuper Fileconverter | asdf  
+ - WordToFile | wtf  
+ - ? | xyml, xy  
+ - X-to-Y | xy, xtoy  
+ - X2Yaml, XtoYaml, X2YAML | xy  
+ - ThereAndBack | hobbits, bilbo, baggins  
 # Similar Tools
 
  - [http://wizard.ae.krakow.pl/~jb/xls2txt/](http://wizard.ae.krakow.pl/~jb/xls2txt/)  
@@ -43,15 +27,11 @@ ThereAndBack | hobbits, bilbo, baggins
 # Notes
 
  - HTML can be embedded in Markdown for tables  
-- GitHub flavored markdown includes tables?  
-| Yes  |
-
-|------|
-
-|  it  |
-
-| does |
-
+ - GitHub flavored markdown includes tables?  
+    | Yes  |  
+    |------|  
+    |  it  |  
+    | does |  
 # Basic Usage
 
  1. `ttb TextyFile.text`  
