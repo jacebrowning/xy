@@ -32,7 +32,7 @@ Create a new document or spreadsheet:
 Or convert an exsting file to the XY format:
 
     $ xy --convert MyDocument.docx
-    $ xy --convert MySpreadsheet.docx
+    $ xy --convert MySpreadsheet.xlsx
 
 When editing, the file will be opened using the associated `.docx` or `.xlsx` editor:
 
@@ -42,6 +42,15 @@ When editing, the file will be opened using the associated `.docx` or `.xlsx` ed
 
 Getting Started
 ===============
+
+
+Requirements
+------------
+
+* Python 3.3: http://www.python.org/download/releases/3.3.4/#download
+* an `.xlsx` or `.docx` editor
+
+
 Installation
 ------------
 
