@@ -1,0 +1,11 @@
+# pronounced "DOCK-see"
+
+attributes:
+  format: document
+  version: 1
+
+content:|
+  Title
+  =====
+
+  This is a sentence with **bold** and _italic_ world.

@@ -1,0 +1,30 @@
+# pronounced "eck-SELL-see"
+
+attributes:
+
+  format: spreadsheet
+  version: 1
+
+# workbook
+content:
+
+ # worksheet
+ - MyFirstTab:
+
+   # row 0
+   -
+   	 # row 0, col 0
+     - "Hello, world!"
+
+     # row 0, col 1
+     - 42
+
+     - 12.34
+     - true
+   -
+     - '123'
+     - 0
+     - -.1
+     - false
+
+- MySecondTab:
