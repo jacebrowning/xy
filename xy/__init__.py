@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-"""
-Package for XY.
-"""
+"""Package for XY."""
 
 from pkg_resources import get_distribution, DistributionNotFound
 

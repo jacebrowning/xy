@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-"""
-Integration tests for the doorstop.cli package.
-"""
+"""Integration tests for the doorstop.cli package."""
 
 import unittest
 from unittest.mock import patch, Mock
@@ -19,13 +17,16 @@ from xy.test import ENV, REASON
 
 @unittest.skipUnless(os.getenv(ENV), REASON)  # pylint: disable=R0904
 class TestMain(unittest.TestCase):  # pylint: disable=R0904
+
     """Integration tests for the 'xy' command."""
 
     def setUp(self):
+        """Run setup for each test method."""
         self.cwd = os.getcwd()
         self.temp = tempfile.mkdtemp()
 
     def tearDown(self):
+        """Run teardown for each test method."""
         os.chdir(self.cwd)
         shutil.rmtree(self.temp)
 
@@ -46,13 +47,16 @@ class TestMain(unittest.TestCase):  # pylint: disable=R0904
 
 @unittest.skipUnless(os.getenv(ENV), REASON)  # pylint: disable=R0904
 class TestNew(unittest.TestCase):  # pylint: disable=R0904
+
     """Integration tests for creating new files with 'xy'."""
 
     def setUp(self):
+        """Run setup for each test method."""
         self.cwd = os.getcwd()
         self.temp = tempfile.mkdtemp()
 
     def tearDown(self):
+        """Run teardown for each test method."""
         os.chdir(self.cwd)
         shutil.rmtree(self.temp)
 
@@ -82,13 +86,16 @@ class TestNew(unittest.TestCase):  # pylint: disable=R0904
 
 @unittest.skipUnless(os.getenv(ENV), REASON)  # pylint: disable=R0904
 class TestConvert(unittest.TestCase):  # pylint: disable=R0904
+
     """Integration tests for converting files with 'xy'."""
 
     def setUp(self):
+        """Run setup for each test method."""
         self.cwd = os.getcwd()
         self.temp = tempfile.mkdtemp()
 
     def tearDown(self):
+        """Run teardown for each test method."""
         os.chdir(self.cwd)
         shutil.rmtree(self.temp)
 
@@ -121,6 +128,7 @@ class TestConvert(unittest.TestCase):  # pylint: disable=R0904
 @unittest.skipUnless(os.getenv(ENV), REASON)  # pylint: disable=R0904
 @patch('xy.cli._run', Mock(return_value=True))  # pylint: disable=R0904
 class TestLogging(unittest.TestCase):  # pylint: disable=R0904
+
     """Integration tests for setting the 'xy' logging level."""
 
     def test_verbose_1(self):

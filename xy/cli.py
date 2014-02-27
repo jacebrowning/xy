@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
-"""
-Command-line interface for XY.
-"""
+"""Command-line interface for XY."""
 
 
 def main(args):
